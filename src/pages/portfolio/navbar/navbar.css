@@ -1,0 +1,34 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    transition: top 0.3s;
+    background-color: aqua;
+}
+
+.brand {
+    padding: 0.5em;
+    margin-top: 0.75em;
+}
+
+.inline-ele {
+    display: inline;
+}
+
+.menu {
+    color: #494949;
+}
+
+ol {
+    overflow: hidden;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+ol li {
+    display: inline-block;
+    padding: 0.5em;
+}
+
+#resume {
+    border: 1px solid #494949;
+}
