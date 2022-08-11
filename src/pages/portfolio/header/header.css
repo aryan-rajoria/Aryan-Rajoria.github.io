@@ -1,0 +1,26 @@
+.header {
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header_content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+p {
+    margin: 20px 0 0 0;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+h3 {
+    font-size: smaller;
+    margin: 0;
+}
