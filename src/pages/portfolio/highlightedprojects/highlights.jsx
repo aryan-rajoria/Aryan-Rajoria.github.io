@@ -1,6 +1,6 @@
 function highlights() {
     return (
-        <div>
+        <div className="general-div">
             <h2>Some of my projects</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

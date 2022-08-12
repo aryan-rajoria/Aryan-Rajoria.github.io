@@ -1,4 +1,4 @@
 function projects() {
-    return <div></div>;
+    return <div className="general-div"></div>;
 }
 export default projects;

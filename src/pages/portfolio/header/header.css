@@ -2,8 +2,8 @@
     width: 60%;
     max-width: 600px;
     margin: 0 auto;
-    padding-top: 35vh;
-    padding-bottom: 40vh;
+    padding-top: 35%;
+    padding-bottom: 40%;
 }
 
 .header_content {
@@ -13,16 +13,16 @@
     flex-direction: column;
 }
 
-p {
+.header-p {
     margin: 20px 0 0 0;
 }
-h1 {
+.header-h1 {
     margin: 0;
 }
-h2 {
+.header-h2 {
     margin: 0;
 }
-h3 {
+.header-h3 {
     font-size: smaller;
     margin: 0;
 }

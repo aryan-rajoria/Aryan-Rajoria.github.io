@@ -1,8 +1,11 @@
+import React from "react";
+import "./aboutme.css";
+
 function aboutme() {
     return (
-        <div>
-            <h2>About me</h2>
-            <p>
+        <div className="general-div">
+            <h2 className="subpart-h2">About me</h2>
+            <p className="general-para">
                 Hello! I’m a final year Computer Science major at Bennett
                 University. I have developed a great interest in the field of
                 Machine Learning and Image Processing after having been

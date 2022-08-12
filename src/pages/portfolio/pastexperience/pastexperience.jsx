@@ -1,6 +1,6 @@
 function pastexperience() {
     return (
-        <div>
+        <div className="general-div">
             <br />
             <br />
             <br />

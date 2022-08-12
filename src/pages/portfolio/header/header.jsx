@@ -6,10 +6,12 @@ function header() {
         <div className="header">
             <div className="header_content">
                 <br />
-                <p>Hi I am</p>
-                <h1>Aryan Rajoria</h1>
-                <h2>Programmer, AI engineer, Web developer</h2>
-                <h3>
+                <p className="header-p">Hi I am</p>
+                <h1 className="header-h1">Aryan Rajoria</h1>
+                <h2 className="header-h2">
+                    Programmer, AI engineer, Web developer
+                </h2>
+                <h3 className="header-h3">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
