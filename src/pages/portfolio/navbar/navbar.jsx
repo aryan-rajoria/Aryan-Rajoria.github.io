@@ -1,14 +1,14 @@
 import "./navbar.css";
-import Logo from "../../../components/micro/logo.svg";
+import { ReactComponent as Logo } from "../../../components/micro/rocket.svg";
 import React from "react";
 
 function Navbar() {
     return (
         <div className="navbar">
             <div className="brand inline-ele">
-                <p className="inline-ele">
-                    <img className="logo" src={Logo} alt="logo" />
-                </p>
+                <div className="div-logo inline-ele">
+                    <Logo className="logo" />
+                </div>
             </div>
             <ol className="menu inline-ele">
                 <li>
