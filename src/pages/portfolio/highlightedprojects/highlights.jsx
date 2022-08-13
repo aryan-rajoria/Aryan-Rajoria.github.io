@@ -1,7 +1,7 @@
 function highlights() {
     return (
         <div className="general-div">
-            <h2>Some of my projects</h2>
+            <h2 className="subpart-h2">Some of my projects</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

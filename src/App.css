@@ -3,12 +3,13 @@
     --background: rgb(16, 15, 15);
     --accent: rgb(0, 129, 228);
     --highlight: #fd6136;
-    --secondary: rgba(238, 238, 238, 0.317);
+    --secondary: rgba(238, 238, 238, 0.758);
     --navbar: #1c1c1c;
     --navbar-text: #494949;
 }
 
 .subpart-h2 {
+    color: var(--accent);
 }
 
 .general-div {
