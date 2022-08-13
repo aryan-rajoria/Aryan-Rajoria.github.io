@@ -1,3 +1,11 @@
+:root {
+    --color1: rgb(16, 15, 15);
+    --color3: rgb(0, 129, 228);
+    --color2: #fd6136;
+    --color4: rgb(238, 238, 238);
+    --color5: #1c1c1c;
+}
+
 .subpart-h2 {
 }
 
@@ -5,4 +13,9 @@
     width: 60%;
     max-width: 600px;
     margin: 0 auto;
+}
+
+body {
+    background-color: var(--color1);
+    color: var(--color4);
 }

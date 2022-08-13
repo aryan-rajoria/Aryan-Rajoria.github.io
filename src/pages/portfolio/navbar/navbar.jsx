@@ -8,11 +8,21 @@ function Navbar() {
                 <p className="inline-ele">Brand Logo,etc.</p>
             </div>
             <ol className="menu inline-ele">
-                <li>About</li>
-                <li>Experience</li>
-                <li>Work</li>
-                <li>Contact</li>
-                <li id="resume">Resume</li>
+                <li>
+                    <code>About</code>
+                </li>
+                <li>
+                    <code>Experience</code>
+                </li>
+                <li>
+                    <code>Work</code>
+                </li>
+                <li>
+                    <code>Contact</code>
+                </li>
+                <li id="resume">
+                    <code>Resume</code>
+                </li>
             </ol>
         </div>
     );
