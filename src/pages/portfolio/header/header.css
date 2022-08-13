@@ -19,7 +19,7 @@
 .header-h1 {
     margin: 0;
     font-size: 3rem;
-    color: var(--color3);
+    color: var(--accent);
 }
 .header-h2 {
     margin: 0;

@@ -1,9 +1,11 @@
 :root {
-    --color1: rgb(16, 15, 15);
-    --color3: rgb(0, 129, 228);
-    --color2: #fd6136;
-    --color4: rgb(238, 238, 238);
-    --color5: #1c1c1c;
+    /* final colors */
+    --background: rgb(16, 15, 15);
+    --accent: rgb(0, 129, 228);
+    --highlight: #fd6136;
+    --secondary: rgba(238, 238, 238, 0.317);
+    --navbar: #1c1c1c;
+    --navbar-text: #494949;
 }
 
 .subpart-h2 {
@@ -16,6 +18,6 @@
 }
 
 body {
-    background-color: var(--color1);
-    color: var(--color4);
+    background-color: var(--background);
+    color: var(--secondary);
 }
