@@ -1,13 +1,65 @@
+/*
+color palette = https://colorhunt.co/palette/2319551f4690e8aa42ffe5b4
+color1 = rgb(35, 25, 85)    #231955
+color2 = rgb(31, 70, 144)   #1F4690
+color3 = rgb(232, 170, 66)  #E8AA42
+color4 = rgb(255, 229, 180) #FFE5B4
+
+color palette2 = https://colorhunt.co/palette/1f46903a5ba0ffa500ffe5b4
+color1 = rgb(31, 70, 144)   #1F4690
+color2 = rgb(58, 91, 160)   #3A5BA0
+color3 = rgb(255, 165, 0)   #FFA500
+color4 = rgb(255, 229, 180) #FFE5B4
+
+color palette3 = https://colorhunt.co/palette/041c3204293a064663ecb365
+color1 = rgb(4, 28, 50)     #041C32
+color2 = rgb(4, 41, 58)     #04293A
+color3 = rgb(6, 70, 99)     #064663
+color4 = rgb(236, 179, 101) #ECB365
+
+color palette4 = https://colorhunt.co/palette/002b5b2b4865256d858fe3cf
+color1 = rgb(0, 43, 91)     #002B5B
+color2 = rgb(43, 72, 101)   #2B4865
+color3 = rgb(37, 109, 133)  #256D85
+color4 = rgb(143, 237, 207) #8FE3CF
+
+color palette5 = https://colorhunt.co/palette/112b3c205375f66b0eefefef
+color1 = rgb(17, 43, 60)    #112B3C
+color2 = rgb(32, 83, 117)   #205375
+color3 = rgb(246, 107, 14)  #F66B0E
+color4 = rgb(239, 239, 239) #EFEFEF
+
+
+Selected pallete
+    --color1: rgb(16, 15, 15); background 
+    --color2: rgb(0, 173, 181); /* kuch nahi */
+/* --color3: #fe9239; accent */
+/* --color4: rgb(238, 238, 238); text */
+/* --color5: #00ff26; navbar
+
+    --color1: rgb(16, 15, 15);
+    --color2: #feb139;
+    --color3: #d62f1c;
+    --color4: #f0f0f0;
+    --color5: #fff700;
+
+    --color1: rgb(16, 15, 15);
+    --color3: rgb(0, 129, 228);
+    --color2: #fd6136;
+    --color4: rgb(238, 238, 238);
+    --color5: #44bb2c;
+
+*/
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
 }
