@@ -1,6 +1,6 @@
 function pastexperience() {
     return (
-        <div id="pastexperience" className="general-div">
+        <div id="pastexperience" className="general-div anchor">
             <h2 className="subpart-h2">Past Experience</h2>
             <br />
             <br />

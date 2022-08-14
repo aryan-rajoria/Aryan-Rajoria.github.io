@@ -50,3 +50,11 @@ ol li:hover {
     background-color: var(--highlight);
     color: #fff;
 }
+
+a:link {
+    color: var(--navbar-text);
+    text-decoration: none;
+}
+a:visited {
+    color: var(--navbar-text);
+}

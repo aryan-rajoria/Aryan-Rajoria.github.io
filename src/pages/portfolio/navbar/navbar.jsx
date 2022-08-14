@@ -12,16 +12,24 @@ function Navbar() {
             </div>
             <ol className="menu inline-ele">
                 <li>
-                    <code>About</code>
+                    <a href="#aboutme">
+                        <code>About</code>
+                    </a>
                 </li>
                 <li>
-                    <code>Experience</code>
+                    <a href="#pastexperience">
+                        <code>Experience</code>
+                    </a>
                 </li>
                 <li>
-                    <code>Work</code>
+                    <a href="#highlights">
+                        <code>Work</code>
+                    </a>
                 </li>
                 <li>
-                    <code>Contact</code>
+                    <a href="#contactme">
+                        <code>Contact</code>
+                    </a>
                 </li>
                 <li id="resume">
                     <code>Resume</code>
