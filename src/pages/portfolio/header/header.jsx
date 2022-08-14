@@ -6,7 +6,7 @@ function header() {
         <div className="header">
             <div className="header_content">
                 <br />
-                <p className="header-p">Hi I am</p>
+                <p className="header-p">Hi, my name is</p>
                 <h1 className="header-h1">Aryan Rajoria</h1>
                 <h2 className="header-h2">
                     Programmer, AI engineer, Web developer
