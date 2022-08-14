@@ -1,7 +1,6 @@
 .navbar {
     position: fixed;
     width: 100%;
-    transition: top 0.3s;
     background-color: var(--navbar);
 }
 
@@ -39,10 +38,15 @@ ol li {
     transition: all 0.3s ease;
 }
 
-ol.menu li:nth-of-type(5) {
+#resume {
     margin-left: 1.5rem;
     /* background-color: var(--accent); */
     color: var(--accent);
+    border: 2px solid var(--accent);
+}
+#resume:hover {
+    background-color: var(--accent);
+    color: #fff;
     border: 2px solid var(--accent);
 }
 

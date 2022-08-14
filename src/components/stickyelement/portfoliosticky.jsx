@@ -8,10 +8,14 @@ function stickyelement() {
         <div className="sticky">
             <ul className="no-marker">
                 <li>
-                    <Github />
+                    <a href="https://github.com/Aryan-Rajoria">
+                        <Github />
+                    </a>
                 </li>
                 <li>
-                    <Linkedin />
+                    <a href="https://www.linkedin.com/in/aryan-rajoria-888555196/">
+                        <Linkedin />
+                    </a>
                 </li>
             </ul>
         </div>

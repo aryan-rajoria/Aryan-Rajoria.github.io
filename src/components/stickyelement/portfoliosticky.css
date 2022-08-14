@@ -18,3 +18,8 @@ ul.no-marker::after {
     height: 100px;
     background-color: white;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
