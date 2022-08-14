@@ -39,16 +39,25 @@ ol li {
     transition: all 0.3s ease;
 }
 
-ol li:nth-of-type(5) {
+ol.menu li:nth-of-type(5) {
     margin-left: 1.5rem;
     /* background-color: var(--accent); */
     color: var(--accent);
     border: 2px solid var(--accent);
 }
 
-ol li:hover {
+li.nav-hover:hover {
     background-color: var(--highlight);
     color: #fff;
+}
+
+li.nav-hover a:hover {
+    color: #fff;
+}
+
+ol.menu a {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
 }
 
 a:link {

@@ -16,7 +16,6 @@
 .header-p {
     margin: 20px 0 0 0;
     color: var(--highlight);
-    font: var(--font-mono);
 }
 .header-h1 {
     margin: 0;

@@ -11,29 +11,19 @@ function Navbar() {
                 </div>
             </div>
             <ol className="menu inline-ele">
-                <li>
-                    <a href="#aboutme">
-                        <code>About</code>
-                    </a>
+                <li className="nav-hover">
+                    <a href="#aboutme">About</a>
                 </li>
-                <li>
-                    <a href="#pastexperience">
-                        <code>Experience</code>
-                    </a>
+                <li className="nav-hover">
+                    <a href="#pastexperience">Experience</a>
                 </li>
-                <li>
-                    <a href="#highlights">
-                        <code>Work</code>
-                    </a>
+                <li className="nav-hover">
+                    <a href="#highlights">Work</a>
                 </li>
-                <li>
-                    <a href="#contactme">
-                        <code>Contact</code>
-                    </a>
+                <li className="nav-hover">
+                    <a href="#contactme">Contact</a>
                 </li>
-                <li id="resume">
-                    <code>Resume</code>
-                </li>
+                <li id="resume">Resume</li>
             </ol>
         </div>
     );
