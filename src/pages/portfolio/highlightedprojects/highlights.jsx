@@ -1,6 +1,6 @@
 function highlights() {
     return (
-        <div className="general-div">
+        <div id="highlights" className="general-div">
             <h2 className="subpart-h2">Some of my projects</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -1,11 +1,20 @@
 .sticky {
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: 0px;
+    left: 0px;
     z-index: 1;
     width: 75px;
 }
 
 ul.no-marker {
     list-style-type: none;
+}
+
+ul.no-marker::after {
+    display: block;
+    content: "";
+    margin-inline: auto;
+    width: 3px;
+    height: 100px;
+    background-color: white;
 }

@@ -3,7 +3,7 @@ import "./aboutme.css";
 
 function aboutme() {
     return (
-        <div className="general-div">
+        <div id="aboutme" className="general-div">
             <h2 className="subpart-h2">About me</h2>
             <p className="general-para">
                 Hello! I’m a final year Computer Science major at Bennett

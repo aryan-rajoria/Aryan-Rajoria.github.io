@@ -1,4 +1,4 @@
 function footer() {
-    return <div></div>;
+    return <div id="footer"></div>;
 }
 export default footer;
