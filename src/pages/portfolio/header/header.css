@@ -1,7 +1,7 @@
 .header {
     display: flex;
     width: 60%;
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
     min-height: 100vh;
 }
@@ -20,7 +20,8 @@
 }
 .header-h1 {
     margin: 0;
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: clamp(40px, 8vw, 80px);
     color: var(--accent);
 }
 .header-h2 {

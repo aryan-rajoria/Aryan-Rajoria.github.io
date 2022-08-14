@@ -1,0 +1,11 @@
+.sticky {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 75px;
+}
+
+ul.no-marker {
+    list-style-type: none;
+}
