@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Download, ExternalLink } from 'lucide-react';
+import profilephoto from "../../static/profile-photo.jpg"
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
             <div className="aspect-w-3 aspect-h-4">
               <img
                 className="object-cover rounded-lg shadow-lg"
-                src="/aryan-rajoria.github.io/assets/profile-photo.jpg"
+                src={profilephoto}
                 alt="Profile"
               />
             </div>
