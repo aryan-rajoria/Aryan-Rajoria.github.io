@@ -10,7 +10,7 @@ const About = () => {
             <div className="aspect-w-3 aspect-h-4">
               <img
                 className="object-cover rounded-lg shadow-lg"
-                src="../../static/profile-photo.jpg"
+                src="/aryan-rajoria.github.io/assets/profile-photo.jpg"
                 alt="Profile"
               />
             </div>
