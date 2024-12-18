@@ -1,7 +1,34 @@
 import React from 'react';
-import { Github, ExternalLink } from 'lucide-react';
+import ProjectItem from './projects/ProjectItem';
+import deptree from "../../static/basic-ftp-cdxgen-dependencytree.png";
+import blintpic from '../../static/blint.png';
+import depscanpic from '../../static/depscan.png';
 
-const Projects = () => {
+// Define the Projects component
+const Projects: React.FC = () => {
+  // Array of project data
+  const projects = [
+    {
+      imageSrc: deptree,
+      title: 'Cyclonedx/cdxgen',
+      description: 'Cdxgen is a CLI tool, library, REPL, and server to create a valid and compliant CycloneDX Bill of Materials (BOM) containing an aggregate of all project dependencies in JSON format. CycloneDX is a full-stack BOM specification that is easily created, human and machine-readable, and simple to parse.',
+      githubLink: 'https://github.com/CycloneDX/cdxgen.git',
+    },
+    {
+      imageSrc: blintpic,
+      title: 'Blint',
+      description: 'Blint is a Binary Linter that checks the security properties and capabilities of your executables. It is powered by lief. Since version 2, blint can also generate Software Bill-of-Materials (SBOM) for supported binaries.',
+      githubLink: 'https://github.com/owasp-dep-scan/blint.git',
+    },
+    {
+      imageSrc: depscanpic,
+      title: 'Depscan',
+      description: 'OWASP dep-scan is a next-generation security and risk audit tool based on known vulnerabilities, advisories, and license limitations for project dependencies. Both local repositories and container images are supported as the input, and the tool is ideal for integration with ASPM/VM platforms and in CI environments',
+      githubLink: 'https://github.com/owasp-dep-scan/dep-scan.git',
+      externalLink: 'https://depscan.readthedocs.io',
+    },
+  ];
+
   return (
     <section id="projects" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -9,25 +36,9 @@ const Projects = () => {
           Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-gray-50 rounded-lg overflow-hidden">
-            <img
-              className="w-full h-48 object-cover"
-              src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-              alt="Project thumbnail"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-semibold text-gray-900">Project Name</h3>
-              <p className="mt-2 text-gray-600">Brief project description highlighting key features and technologies used.</p>
-              <div className="mt-4 flex space-x-4">
-                <a href="#" className="text-gray-600 hover:text-gray-900">
-                  <Github className="w-5 h-5" />
-                </a>
-                <a href="#" className="text-gray-600 hover:text-gray-900">
-                  <ExternalLink className="w-5 h-5" />
-                </a>
-              </div>
-            </div>
-          </div>
+          {projects.map((project, index) => (
+            <ProjectItem key={index} {...project} />
+          ))}
         </div>
       </div>
     </section>

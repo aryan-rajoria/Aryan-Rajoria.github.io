@@ -15,7 +15,7 @@ function App() {
           <div className="flex justify-between h-16">
             <div className="flex">
               <div className="flex-shrink-0 flex items-center">
-                <span className="text-xl font-bold text-gray-900">Your Name</span>
+                <span className="text-xl font-bold text-gray-900">Aryan Rajoria</span>
               </div>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:items-center space-x-8">
@@ -49,10 +49,10 @@ function App() {
 
       <main>
         <About />
+        <Projects />
         <Experience />
         <Education />
-        <Skills />
-        <Projects />
+        {/* <Skills /> */}
         <Contact />
       </main>
     </div>
