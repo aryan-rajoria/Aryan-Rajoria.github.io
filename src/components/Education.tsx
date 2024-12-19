@@ -1,8 +1,7 @@
 import React from 'react';
 import EducationItem, { EducationItemProps } from './education/EducationItem';
-import { ExperienceItemProps } from './experience/ExperienceItem';
 
-const Education = () => {
+const Education: React.FC = () => {
   const educationData: EducationItemProps[] = [
     {
       degree: 'Master of Science in Cybersecurity',
