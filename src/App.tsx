@@ -7,21 +7,24 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Navbar />
+    // <ThemeProvider>
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors">
+        <Navbar />
 
-      <main>
-        <About />
-        <Projects />
-        <Experience />
-        <Education />
-        {/* <Skills /> */}
-        <Contact />
-      </main>
-    </div>
+        <main>
+          <About />
+          <Projects />
+          <Experience />
+          <Education />
+          {/* <Skills /> */}
+          <Contact />
+        </main>
+      </div>
+    // </ThemeProvider>
   );
 }
 
