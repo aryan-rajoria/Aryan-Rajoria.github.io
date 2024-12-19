@@ -1,7 +1,34 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
+import emailjs from '@emailjs/browser';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 const Contact = () => {
+  const form = useRef();
+  const [showToast, setShowToast] = useState(false); 
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    
+
+    emailjs.sendForm('service_wvd2at5', 'template_dr6tt8g', e.target, {
+        publicKey: 'hW1-RAGn99kMNlA9J',
+      })
+      .then(
+        () => {
+          console.log(form.current);
+          setShowToast(true);
+          console.log('SUCCESS!');
+
+          setTimeout(() => {
+            setShowToast(false);
+          }, 1000); 
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <section id="contact" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,7 +44,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Email</p>
-                  <p className="text-lg font-medium text-gray-900">your.email@example.com</p>
+                  <p className="text-lg font-medium text-gray-900">arajoria3@gatech.edu</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
@@ -26,7 +53,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Phone</p>
-                  <p className="text-lg font-medium text-gray-900">+1 (555) 123-4567</p>
+                  <p className="text-lg font-medium text-gray-900">+1 (404) 703-7050</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
@@ -40,12 +67,19 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <form className="space-y-6">
+          {/* Toast message */}
+          {showToast && (
+            <div className="fixed bottom-4 left-4 bg-green-500 text-white py-2 px-4 rounded-md">
+              Message sent successfully!
+            </div>
+          )}
+          <form className="space-y-6" ref={form} onSubmit={sendEmail}>
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
               <input
                 type="text"
                 id="name"
+                name="name"
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
               />
             </div>
@@ -54,6 +88,7 @@ const Contact = () => {
               <input
                 type="email"
                 id="email"
+                name="email"
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
               />
             </div>
@@ -62,6 +97,7 @@ const Contact = () => {
               <textarea
                 id="message"
                 rows={4}
+                name="message"
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
               ></textarea>
             </div>

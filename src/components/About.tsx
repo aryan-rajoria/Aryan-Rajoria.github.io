@@ -5,10 +5,10 @@ import profilephoto from "../../static/profile-photo.jpg"
 const About = () => {
   return (
     <section id="about" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
           <div className="relative">
-            <div className="aspect-w-3 aspect-h-4">
+            <div className="aspect-w-3 aspect-h-4 w-[100%]">
               <img
                 className="object-cover rounded-lg shadow-lg"
                 src={profilephoto}
@@ -28,14 +28,18 @@ const About = () => {
             </p>
             
             <div className="mt-8 flex flex-wrap gap-4">
+              <a href="#contact">
               <button className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
                 <Mail className="w-5 h-5 mr-2" />
                 Contact Me  
               </button>
+              </a>
+              <a href="https://linkedin.com/in/arajoria">
               <button className="inline-flex items-center px-4 py-2 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
                 <Download className="w-5 h-5 mr-2" />
                 Download CV
               </button>
+              </a>
             </div>
 
             <div className="mt-8 flex space-x-6">
