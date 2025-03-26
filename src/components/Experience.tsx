@@ -7,7 +7,7 @@ const Experience: React.FC = () => {
     {
       title: 'Open Source Developer / Security Researcher',
       company: 'OWASP & AppThreat',
-      date: 'Feb 2024 - Present',
+      date: 'Feb 2024 - Dec 2024',
       location: 'Atlanta, GA (Remote)',
       responsibilities: [
         'Designed and implemented key enhancements to cdxgen and dep-scan, increasing the supported package managers and improving the number of dependencies captured by over 33%, facilitating compliance with NIST RMF.',
