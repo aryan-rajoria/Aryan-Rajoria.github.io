@@ -3,6 +3,7 @@ import ProjectItem from './projects/ProjectItem';
 import deptree from "../../static/basic-ftp-cdxgen-dependencytree.png";
 import blintpic from '../../static/blint.png';
 import depscanpic from '../../static/depscan.png';
+import atompic from '../../static/atom.png';
 
 // Define the Projects component
 const Projects: React.FC = () => {
@@ -28,7 +29,7 @@ const Projects: React.FC = () => {
       externalLink: 'https://depscan.readthedocs.io',
     },
     {
-      imageSrc: depscanpic,
+      imageSrc: atompic,
       title: 'Atom',
       description: 'Atom provides a novel intermediate representation for applications source code in multiple languages the output of atom can then be used for Reachability Analysis.',
       githubLink: 'https://github.com/AppThreat/atom',
