@@ -5,7 +5,7 @@ import { ExperienceItemProps } from './experience/ExperienceItem';
 const Experience: React.FC = () => {
   const experienceData: ExperienceItemProps[] = [
     {
-      title: 'Open Source Developer / Security Researcher Intern',
+      title: 'Open Source Developer / Security Researcher',
       company: 'OWASP & AppThreat',
       date: 'Feb 2024 - Present',
       location: 'Atlanta, GA (Remote)',
