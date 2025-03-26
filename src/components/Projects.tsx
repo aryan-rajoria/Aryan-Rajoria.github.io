@@ -12,20 +12,27 @@ const Projects: React.FC = () => {
       imageSrc: deptree,
       title: 'Cyclonedx/cdxgen',
       description: 'Cdxgen is a CLI tool, library, REPL, and server to create a valid and compliant CycloneDX Bill of Materials (BOM) containing an aggregate of all project dependencies in JSON format. CycloneDX is a full-stack BOM specification that is easily created, human and machine-readable, and simple to parse.',
-      githubLink: 'https://github.com/CycloneDX/cdxgen.git',
+      githubLink: 'https://github.com/CycloneDX/cdxgen',
     },
     {
       imageSrc: blintpic,
       title: 'Blint',
       description: 'Blint is a Binary Linter that checks the security properties and capabilities of your executables. It is powered by lief. Since version 2, blint can also generate Software Bill-of-Materials (SBOM) for supported binaries.',
-      githubLink: 'https://github.com/owasp-dep-scan/blint.git',
+      githubLink: 'https://github.com/owasp-dep-scan/blint',
     },
     {
       imageSrc: depscanpic,
       title: 'Depscan',
       description: 'OWASP dep-scan is a next-generation security and risk audit tool based on known vulnerabilities, advisories, and license limitations for project dependencies. Both local repositories and container images are supported as the input, and the tool is ideal for integration with ASPM/VM platforms and in CI environments',
-      githubLink: 'https://github.com/owasp-dep-scan/dep-scan.git',
+      githubLink: 'https://github.com/owasp-dep-scan/dep-scan',
       externalLink: 'https://depscan.readthedocs.io',
+    },
+    {
+      imageSrc: depscanpic,
+      title: 'Atom',
+      description: 'Atom provides a novel intermediate representation for applications source code in multiple languages the output of atom can then be used for Reachability Analysis.',
+      githubLink: 'https://github.com/AppThreat/atom',
+      externalLink: 'https://atom-docs.appthreat.dev/',
     },
   ];
 
