@@ -1,5 +1,6 @@
 import React from 'react';
 import vulnImage from "../../static/proj1.png";
+import picImage from "../../static/proj2.png";
 
 interface Blog {
   id: string;
@@ -29,7 +30,7 @@ const blogs: Blog[] = [
     date: 'Nay 26, 2025',
     description: 'Visualize the contents of a pickle file safely (Smaller files only)',
     link: 'https://aryan-rajoria.github.io/safe-pickle-file-vis/', // Replace with the actual link to your blog post
-    imageUrl: vulnImage, // Example image
+    imageUrl: picImage, // Example image
     tags: ['AI/ML', 'Application Security', "Analysis"],
   },
 //   {
