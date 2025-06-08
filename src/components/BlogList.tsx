@@ -17,11 +17,20 @@ const blogs: Blog[] = [
   {
     id: '1',
     title: 'Vulnerable Web Apps',
-    date: 'October 26, 2023',
+    date: 'March 26, 2025',
     description: 'Comparing Vulnerable Web Apps and which technologies they help test',
     link: 'https://aryan-rajoria.github.io/vuln-web-sec-proj/', // Replace with the actual link to your blog post
     imageUrl: vulnImage, // Example image
     tags: ['Penetration Testing', 'Application Security', "Cloud Security"],
+  },
+  {
+    id: '2',
+    title: 'Safe Pickle File Visualizer',
+    date: 'Nay 26, 2025',
+    description: 'Visualize the contents of a pickle file safely (Smaller files only)',
+    link: 'https://aryan-rajoria.github.io/safe-pickle-file-vis/', // Replace with the actual link to your blog post
+    imageUrl: vulnImage, // Example image
+    tags: ['AI/ML', 'Application Security', "Analysis"],
   },
 //   {
 //     id: '2',
