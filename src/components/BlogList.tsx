@@ -27,11 +27,20 @@ const blogs: Blog[] = [
   {
     id: '2',
     title: 'Safe Pickle File Visualizer',
-    date: 'Nay 26, 2025',
+    date: 'May 26, 2025',
     description: 'Visualize the contents of a pickle file safely (Smaller files only)',
     link: 'https://aryan-rajoria.github.io/safe-pickle-file-vis/', // Replace with the actual link to your blog post
     imageUrl: picImage, // Example image
     tags: ['AI/ML', 'Application Security', "Analysis"],
+  },
+  {
+    id: '3',
+    title: 'Bounding box checking tool',
+    date: 'August 8, 2025',
+    description: 'Visualize bounding box values returned by model on Images',
+    link: 'https://aryan-rajoria.github.io/boundingboxtool/', // Replace with the actual link to your blog post
+    imageUrl: picImage, // Example image
+    tags: ['AI/ML', 'Computer Vision', "Analysis"],
   },
 //   {
 //     id: '2',
